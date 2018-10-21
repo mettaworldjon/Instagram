@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249F30CA216D583700263804 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249F30C9216D583700263804 /* Satisfy-Regular.ttf */; };
+		249F30CC216D5BC600263804 /* GrandHotel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249F30CB216D5BC600263804 /* GrandHotel-Regular.ttf */; };
+		249F30CE216D5C2500263804 /* MarckScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249F30CD216D5C2500263804 /* MarckScript-Regular.ttf */; };
+		249F30D0216D621700263804 /* PhoneOrEmail+Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F30CF216D621700263804 /* PhoneOrEmail+Controller.swift */; };
+		24BAA14F216C0C9B00ADEC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAA14E216C0C9B00ADEC1E /* AppDelegate.swift */; };
+		24BAA151216C0C9B00ADEC1E /* StartUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAA150216C0C9B00ADEC1E /* StartUpController.swift */; };
+		24BAA156216C0C9E00ADEC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BAA155216C0C9E00ADEC1E /* Assets.xcassets */; };
+		24BAA159216C0C9E00ADEC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BAA157216C0C9E00ADEC1E /* LaunchScreen.storyboard */; };
+		24CC7F38217517BC002501FF /* Global+NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F37217517BC002501FF /* Global+NavController.swift */; };
+		24CC7F3A217520B0002501FF /* RegisterViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F39217520B0002501FF /* RegisterViews.swift */; };
+		24CC7F3E21752EED002501FF /* ActivateAndClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F3D21752EED002501FF /* ActivateAndClear.swift */; };
+		24CC7F4321752FF4002501FF /* RegisterConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F4221752FF4002501FF /* RegisterConstraints.swift */; };
+		24CC7F46217534CF002501FF /* RegisterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F45217534CF002501FF /* RegisterHandler.swift */; };
+		24CC7F4921753FDD002501FF /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F4821753FDD002501FF /* PasswordController.swift */; };
+		24CC7F4F217548B8002501FF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F4E217548B8002501FF /* RegisterController.swift */; };
+		24CC7F5221754E6B002501FF /* NameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F5121754E6B002501FF /* NameController.swift */; };
+		24CC7F5421757CFF002501FF /* ValidPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F5321757CFF002501FF /* ValidPassword.swift */; };
+		F25F0F1E216FE3C10078EC08 /* PhoneOrEmail+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F1D216FE3C10078EC08 /* PhoneOrEmail+Validation.swift */; };
+		F25F0F21217040920078EC08 /* Validation+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F20217040920078EC08 /* Validation+Methods.swift */; };
+		F25F0F2621704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F2521704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift */; };
+		F25F0F2D21706DE00078EC08 /* PhoneOrEmail+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F2C21706DE00078EC08 /* PhoneOrEmail+Views.swift */; };
+		F25F0F302170F5490078EC08 /* Register+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F2F2170F5490078EC08 /* Register+Data.swift */; };
+		F25F0F342170FBF90078EC08 /* NextController+Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F332170FBF90078EC08 /* NextController+Method.swift */; };
+		F2B04AB3216EAB8700A5053E /* StartUpVIews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B04AB2216EAB8700A5053E /* StartUpVIews.swift */; };
+		F2B04AB5216EB07E00A5053E /* StartUp+ButtonHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B04AB4216EB07E00A5053E /* StartUp+ButtonHandlers.swift */; };
+		F2B04ABD216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B04ABC216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		249F30C9216D583700263804 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		249F30CB216D5BC600263804 /* GrandHotel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.ttf"; sourceTree = "<group>"; };
+		249F30CD216D5C2500263804 /* MarckScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarckScript-Regular.ttf"; sourceTree = "<group>"; };
+		249F30CF216D621700263804 /* PhoneOrEmail+Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneOrEmail+Controller.swift"; sourceTree = "<group>"; };
+		24BAA14B216C0C9B00ADEC1E /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BAA14E216C0C9B00ADEC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24BAA150216C0C9B00ADEC1E /* StartUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpController.swift; sourceTree = "<group>"; };
+		24BAA155216C0C9E00ADEC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BAA158216C0C9E00ADEC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24BAA15A216C0C9E00ADEC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CC7F37217517BC002501FF /* Global+NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global+NavController.swift"; sourceTree = "<group>"; };
+		24CC7F39217520B0002501FF /* RegisterViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViews.swift; sourceTree = "<group>"; };
+		24CC7F3D21752EED002501FF /* ActivateAndClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateAndClear.swift; sourceTree = "<group>"; };
+		24CC7F4221752FF4002501FF /* RegisterConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstraints.swift; sourceTree = "<group>"; };
+		24CC7F45217534CF002501FF /* RegisterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterHandler.swift; sourceTree = "<group>"; };
+		24CC7F4821753FDD002501FF /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		24CC7F4E217548B8002501FF /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		24CC7F5121754E6B002501FF /* NameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameController.swift; sourceTree = "<group>"; };
+		24CC7F5321757CFF002501FF /* ValidPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPassword.swift; sourceTree = "<group>"; };
+		F25F0F1D216FE3C10078EC08 /* PhoneOrEmail+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneOrEmail+Validation.swift"; sourceTree = "<group>"; };
+		F25F0F20217040920078EC08 /* Validation+Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validation+Methods.swift"; sourceTree = "<group>"; };
+		F25F0F2521704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneOrEmailView+Contraints.swift"; sourceTree = "<group>"; };
+		F25F0F2C21706DE00078EC08 /* PhoneOrEmail+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneOrEmail+Views.swift"; sourceTree = "<group>"; };
+		F25F0F2F2170F5490078EC08 /* Register+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register+Data.swift"; sourceTree = "<group>"; };
+		F25F0F332170FBF90078EC08 /* NextController+Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NextController+Method.swift"; sourceTree = "<group>"; };
+		F2B04AB2216EAB8700A5053E /* StartUpVIews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpVIews.swift; sourceTree = "<group>"; };
+		F2B04AB4216EB07E00A5053E /* StartUp+ButtonHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StartUp+ButtonHandlers.swift"; sourceTree = "<group>"; };
+		F2B04ABC216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneOrEmail+ButtonHandlers.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BAA148216C0C9B00ADEC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249F30C8216D581B00263804 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				249F30C9216D583700263804 /* Satisfy-Regular.ttf */,
+				249F30CB216D5BC600263804 /* GrandHotel-Regular.ttf */,
+				249F30CD216D5C2500263804 /* MarckScript-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		24BAA142216C0C9B00ADEC1E = {
+			isa = PBXGroup;
+			children = (
+				24BAA14D216C0C9B00ADEC1E /* Instagram */,
+				24BAA14C216C0C9B00ADEC1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24BAA14C216C0C9B00ADEC1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24BAA14B216C0C9B00ADEC1E /* Instagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24BAA14D216C0C9B00ADEC1E /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				24BAA14E216C0C9B00ADEC1E /* AppDelegate.swift */,
+				24CC7F3B21752EBA002501FF /* Global+Methods */,
+				F2B04AB1216EAB3600A5053E /* StartupOptions */,
+				F2B04AB7216EB25000A5053E /* SignUp */,
+				24BAA157216C0C9E00ADEC1E /* LaunchScreen.storyboard */,
+				24BAA155216C0C9E00ADEC1E /* Assets.xcassets */,
+				24BAA15A216C0C9E00ADEC1E /* Info.plist */,
+				249F30C8216D581B00263804 /* fonts */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		24CC7F33217515BB002501FF /* Register+Modal */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F44217534BF002501FF /* Register+Handlers */,
+				24CC7F3F21752FA6002501FF /* Register+Controller */,
+				24CC7F4021752FC5002501FF /* Register+Views */,
+			);
+			path = "Register+Modal";
+			sourceTree = "<group>";
+		};
+		24CC7F36217517A4002501FF /* Global+NavController */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F37217517BC002501FF /* Global+NavController.swift */,
+			);
+			path = "Global+NavController";
+			sourceTree = "<group>";
+		};
+		24CC7F3B21752EBA002501FF /* Global+Methods */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F3C21752ECC002501FF /* Global+Tools */,
+				24CC7F36217517A4002501FF /* Global+NavController */,
+			);
+			path = "Global+Methods";
+			sourceTree = "<group>";
+		};
+		24CC7F3C21752ECC002501FF /* Global+Tools */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F3D21752EED002501FF /* ActivateAndClear.swift */,
+				24CC7F5321757CFF002501FF /* ValidPassword.swift */,
+			);
+			path = "Global+Tools";
+			sourceTree = "<group>";
+		};
+		24CC7F3F21752FA6002501FF /* Register+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F4E217548B8002501FF /* RegisterController.swift */,
+			);
+			path = "Register+Controller";
+			sourceTree = "<group>";
+		};
+		24CC7F4021752FC5002501FF /* Register+Views */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F39217520B0002501FF /* RegisterViews.swift */,
+				24CC7F4121752FD5002501FF /* Register+Constraints */,
+			);
+			path = "Register+Views";
+			sourceTree = "<group>";
+		};
+		24CC7F4121752FD5002501FF /* Register+Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F4221752FF4002501FF /* RegisterConstraints.swift */,
+			);
+			path = "Register+Constraints";
+			sourceTree = "<group>";
+		};
+		24CC7F44217534BF002501FF /* Register+Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F45217534CF002501FF /* RegisterHandler.swift */,
+			);
+			path = "Register+Handlers";
+			sourceTree = "<group>";
+		};
+		24CC7F4721753FA2002501FF /* Password+Register */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F4A21754093002501FF /* Password+Controller */,
+			);
+			path = "Password+Register";
+			sourceTree = "<group>";
+		};
+		24CC7F4A21754093002501FF /* Password+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F4821753FDD002501FF /* PasswordController.swift */,
+			);
+			path = "Password+Controller";
+			sourceTree = "<group>";
+		};
+		24CC7F5021754E56002501FF /* Name+Register */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F5121754E6B002501FF /* NameController.swift */,
+			);
+			path = "Name+Register";
+			sourceTree = "<group>";
+		};
+		F25F0F1F217040760078EC08 /* PhonrOrEmail+Validation */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F1D216FE3C10078EC08 /* PhoneOrEmail+Validation.swift */,
+				F25F0F20217040920078EC08 /* Validation+Methods.swift */,
+			);
+			path = "PhonrOrEmail+Validation";
+			sourceTree = "<group>";
+		};
+		F25F0F2221704E9C0078EC08 /* PhoneOrEmail+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				249F30CF216D621700263804 /* PhoneOrEmail+Controller.swift */,
+			);
+			path = "PhoneOrEmail+Controller";
+			sourceTree = "<group>";
+		};
+		F25F0F2321704EC10078EC08 /* PhoneOrEmail+Views */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F2C21706DE00078EC08 /* PhoneOrEmail+Views.swift */,
+				F25F0F2421704EEA0078EC08 /* Constraints */,
+			);
+			path = "PhoneOrEmail+Views";
+			sourceTree = "<group>";
+		};
+		F25F0F2421704EEA0078EC08 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F2521704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		F25F0F2821704FAE0078EC08 /* PhoneOrEmail+ButtonActions */ = {
+			isa = PBXGroup;
+			children = (
+				F2B04ABC216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift */,
+			);
+			path = "PhoneOrEmail+ButtonActions";
+			sourceTree = "<group>";
+		};
+		F25F0F29217050A80078EC08 /* StartUp+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24BAA150216C0C9B00ADEC1E /* StartUpController.swift */,
+			);
+			path = "StartUp+Controller";
+			sourceTree = "<group>";
+		};
+		F25F0F2A217050B70078EC08 /* StartUp+Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2B04AB2216EAB8700A5053E /* StartUpVIews.swift */,
+			);
+			path = "StartUp+Views";
+			sourceTree = "<group>";
+		};
+		F25F0F2B217050D20078EC08 /* StartUp+ButtonHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				F2B04AB4216EB07E00A5053E /* StartUp+ButtonHandlers.swift */,
+			);
+			path = "StartUp+ButtonHandlers";
+			sourceTree = "<group>";
+		};
+		F25F0F2E2170705F0078EC08 /* PhoneOrEmail+Register */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F2221704E9C0078EC08 /* PhoneOrEmail+Controller */,
+				F25F0F2321704EC10078EC08 /* PhoneOrEmail+Views */,
+				F25F0F2821704FAE0078EC08 /* PhoneOrEmail+ButtonActions */,
+				F25F0F1F217040760078EC08 /* PhonrOrEmail+Validation */,
+			);
+			path = "PhoneOrEmail+Register";
+			sourceTree = "<group>";
+		};
+		F25F0F312170F54D0078EC08 /* RegisterData+Model */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F2F2170F5490078EC08 /* Register+Data.swift */,
+			);
+			path = "RegisterData+Model";
+			sourceTree = "<group>";
+		};
+		F25F0F322170FBD00078EC08 /* NextController+Method */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F332170FBF90078EC08 /* NextController+Method.swift */,
+			);
+			path = "NextController+Method";
+			sourceTree = "<group>";
+		};
+		F2B04AB1216EAB3600A5053E /* StartupOptions */ = {
+			isa = PBXGroup;
+			children = (
+				F25F0F29217050A80078EC08 /* StartUp+Controller */,
+				F25F0F2A217050B70078EC08 /* StartUp+Views */,
+				F25F0F2B217050D20078EC08 /* StartUp+ButtonHandlers */,
+			);
+			path = StartupOptions;
+			sourceTree = "<group>";
+		};
+		F2B04AB7216EB25000A5053E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F33217515BB002501FF /* Register+Modal */,
+				F25F0F2E2170705F0078EC08 /* PhoneOrEmail+Register */,
+				24CC7F5021754E56002501FF /* Name+Register */,
+				24CC7F4721753FA2002501FF /* Password+Register */,
+				F25F0F312170F54D0078EC08 /* RegisterData+Model */,
+				F25F0F322170FBD00078EC08 /* NextController+Method */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24BAA14A216C0C9B00ADEC1E /* Instagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BAA15D216C0C9E00ADEC1E /* Build configuration list for PBXNativeTarget "Instagram" */;
+			buildPhases = (
+				24BAA147216C0C9B00ADEC1E /* Sources */,
+				24BAA148216C0C9B00ADEC1E /* Frameworks */,
+				24BAA149216C0C9B00ADEC1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagram;
+			productName = Instagram;
+			productReference = 24BAA14B216C0C9B00ADEC1E /* Instagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24BAA143216C0C9B00ADEC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jonathan Dowdell";
+				TargetAttributes = {
+					24BAA14A216C0C9B00ADEC1E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 24BAA146216C0C9B00ADEC1E /* Build configuration list for PBXProject "Instagram" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24BAA142216C0C9B00ADEC1E;
+			productRefGroup = 24BAA14C216C0C9B00ADEC1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24BAA14A216C0C9B00ADEC1E /* Instagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24BAA149216C0C9B00ADEC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249F30CA216D583700263804 /* Satisfy-Regular.ttf in Resources */,
+				249F30CE216D5C2500263804 /* MarckScript-Regular.ttf in Resources */,
+				249F30CC216D5BC600263804 /* GrandHotel-Regular.ttf in Resources */,
+				24BAA159216C0C9E00ADEC1E /* LaunchScreen.storyboard in Resources */,
+				24BAA156216C0C9E00ADEC1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24BAA147216C0C9B00ADEC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CC7F38217517BC002501FF /* Global+NavController.swift in Sources */,
+				24BAA151216C0C9B00ADEC1E /* StartUpController.swift in Sources */,
+				F25F0F302170F5490078EC08 /* Register+Data.swift in Sources */,
+				F25F0F2621704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift in Sources */,
+				24CC7F4F217548B8002501FF /* RegisterController.swift in Sources */,
+				F2B04AB5216EB07E00A5053E /* StartUp+ButtonHandlers.swift in Sources */,
+				24BAA14F216C0C9B00ADEC1E /* AppDelegate.swift in Sources */,
+				F25F0F342170FBF90078EC08 /* NextController+Method.swift in Sources */,
+				F25F0F21217040920078EC08 /* Validation+Methods.swift in Sources */,
+				F2B04AB3216EAB8700A5053E /* StartUpVIews.swift in Sources */,
+				24CC7F46217534CF002501FF /* RegisterHandler.swift in Sources */,
+				24CC7F4321752FF4002501FF /* RegisterConstraints.swift in Sources */,
+				F2B04ABD216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift in Sources */,
+				24CC7F5221754E6B002501FF /* NameController.swift in Sources */,
+				24CC7F5421757CFF002501FF /* ValidPassword.swift in Sources */,
+				F25F0F1E216FE3C10078EC08 /* PhoneOrEmail+Validation.swift in Sources */,
+				24CC7F3E21752EED002501FF /* ActivateAndClear.swift in Sources */,
+				24CC7F4921753FDD002501FF /* PasswordController.swift in Sources */,
+				249F30D0216D621700263804 /* PhoneOrEmail+Controller.swift in Sources */,
+				F25F0F2D21706DE00078EC08 /* PhoneOrEmail+Views.swift in Sources */,
+				24CC7F3A217520B0002501FF /* RegisterViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24BAA157216C0C9E00ADEC1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BAA158216C0C9E00ADEC1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24BAA15B216C0C9E00ADEC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24BAA15C216C0C9E00ADEC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24BAA15E216C0C9E00ADEC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBQ2JLQD83;
+				INFOPLIST_FILE = Instagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metta.Instagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		24BAA15F216C0C9E00ADEC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBQ2JLQD83;
+				INFOPLIST_FILE = Instagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metta.Instagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BAA146216C0C9B00ADEC1E /* Build configuration list for PBXProject "Instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BAA15B216C0C9E00ADEC1E /* Debug */,
+				24BAA15C216C0C9E00ADEC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BAA15D216C0C9E00ADEC1E /* Build configuration list for PBXNativeTarget "Instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BAA15E216C0C9E00ADEC1E /* Debug */,
+				24BAA15F216C0C9E00ADEC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24BAA143216C0C9B00ADEC1E /* Project object */;
+}
