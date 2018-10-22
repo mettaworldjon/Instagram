@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2476288A217D08980063A92F /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24762889217D08980063A92F /* WelcomeController.swift */; };
+		2476288E217D2E3F0063A92F /* AddPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476288D217D2E3F0063A92F /* AddPhotoController.swift */; };
+		24762891217D7C8D0063A92F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24762890217D7C8D0063A92F /* Colors.swift */; };
 		249F30CA216D583700263804 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249F30C9216D583700263804 /* Satisfy-Regular.ttf */; };
 		249F30CC216D5BC600263804 /* GrandHotel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249F30CB216D5BC600263804 /* GrandHotel-Regular.ttf */; };
 		249F30CE216D5C2500263804 /* MarckScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 249F30CD216D5C2500263804 /* MarckScript-Regular.ttf */; };
@@ -17,7 +20,7 @@
 		24BAA159216C0C9E00ADEC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BAA157216C0C9E00ADEC1E /* LaunchScreen.storyboard */; };
 		24CC7F38217517BC002501FF /* Global+NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F37217517BC002501FF /* Global+NavController.swift */; };
 		24CC7F3A217520B0002501FF /* RegisterViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F39217520B0002501FF /* RegisterViews.swift */; };
-		24CC7F3E21752EED002501FF /* ActivateAndClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F3D21752EED002501FF /* ActivateAndClear.swift */; };
+		24CC7F3E21752EED002501FF /* Active+NonActive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F3D21752EED002501FF /* Active+NonActive.swift */; };
 		24CC7F4321752FF4002501FF /* RegisterConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F4221752FF4002501FF /* RegisterConstraints.swift */; };
 		24CC7F46217534CF002501FF /* RegisterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F45217534CF002501FF /* RegisterHandler.swift */; };
 		24CC7F4921753FDD002501FF /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F4821753FDD002501FF /* PasswordController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24762889217D08980063A92F /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		2476288D217D2E3F0063A92F /* AddPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoController.swift; sourceTree = "<group>"; };
+		24762890217D7C8D0063A92F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		249F30C9216D583700263804 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
 		249F30CB216D5BC600263804 /* GrandHotel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.ttf"; sourceTree = "<group>"; };
 		249F30CD216D5C2500263804 /* MarckScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarckScript-Regular.ttf"; sourceTree = "<group>"; };
@@ -48,7 +54,7 @@
 		24BAA15A216C0C9E00ADEC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CC7F37217517BC002501FF /* Global+NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global+NavController.swift"; sourceTree = "<group>"; };
 		24CC7F39217520B0002501FF /* RegisterViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViews.swift; sourceTree = "<group>"; };
-		24CC7F3D21752EED002501FF /* ActivateAndClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateAndClear.swift; sourceTree = "<group>"; };
+		24CC7F3D21752EED002501FF /* Active+NonActive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Active+NonActive.swift"; sourceTree = "<group>"; };
 		24CC7F4221752FF4002501FF /* RegisterConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConstraints.swift; sourceTree = "<group>"; };
 		24CC7F45217534CF002501FF /* RegisterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterHandler.swift; sourceTree = "<group>"; };
 		24CC7F4821753FDD002501FF /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
@@ -77,6 +83,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24762887217CFB140063A92F /* Name+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24CC7F5121754E6B002501FF /* NameController.swift */,
+			);
+			path = "Name+Controller";
+			sourceTree = "<group>";
+		};
+		24762888217D08670063A92F /* Welcome+Register */ = {
+			isa = PBXGroup;
+			children = (
+				2476288B217D08A70063A92F /* Welcome+Controller */,
+			);
+			path = "Welcome+Register";
+			sourceTree = "<group>";
+		};
+		2476288B217D08A70063A92F /* Welcome+Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24762889217D08980063A92F /* WelcomeController.swift */,
+			);
+			path = "Welcome+Controller";
+			sourceTree = "<group>";
+		};
+		2476288C217D2E1A0063A92F /* AddPhoto+Register */ = {
+			isa = PBXGroup;
+			children = (
+				2476288D217D2E3F0063A92F /* AddPhotoController.swift */,
+			);
+			path = "AddPhoto+Register";
+			sourceTree = "<group>";
+		};
+		2476288F217D7C640063A92F /* Colors+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24762890217D7C8D0063A92F /* Colors.swift */,
+			);
+			path = "Colors+Extensions";
+			sourceTree = "<group>";
+		};
 		249F30C8216D581B00263804 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +185,7 @@
 		24CC7F3B21752EBA002501FF /* Global+Methods */ = {
 			isa = PBXGroup;
 			children = (
+				2476288F217D7C640063A92F /* Colors+Extensions */,
 				24CC7F3C21752ECC002501FF /* Global+Tools */,
 				24CC7F36217517A4002501FF /* Global+NavController */,
 			);
@@ -148,7 +195,7 @@
 		24CC7F3C21752ECC002501FF /* Global+Tools */ = {
 			isa = PBXGroup;
 			children = (
-				24CC7F3D21752EED002501FF /* ActivateAndClear.swift */,
+				24CC7F3D21752EED002501FF /* Active+NonActive.swift */,
 				24CC7F5321757CFF002501FF /* ValidPassword.swift */,
 			);
 			path = "Global+Tools";
@@ -206,7 +253,7 @@
 		24CC7F5021754E56002501FF /* Name+Register */ = {
 			isa = PBXGroup;
 			children = (
-				24CC7F5121754E6B002501FF /* NameController.swift */,
+				24762887217CFB140063A92F /* Name+Controller */,
 			);
 			path = "Name+Register";
 			sourceTree = "<group>";
@@ -317,12 +364,14 @@
 		F2B04AB7216EB25000A5053E /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				F25F0F322170FBD00078EC08 /* NextController+Method */,
+				F25F0F312170F54D0078EC08 /* RegisterData+Model */,
 				24CC7F33217515BB002501FF /* Register+Modal */,
 				F25F0F2E2170705F0078EC08 /* PhoneOrEmail+Register */,
 				24CC7F5021754E56002501FF /* Name+Register */,
 				24CC7F4721753FA2002501FF /* Password+Register */,
-				F25F0F312170F54D0078EC08 /* RegisterData+Model */,
-				F25F0F322170FBD00078EC08 /* NextController+Method */,
+				24762888217D08670063A92F /* Welcome+Register */,
+				2476288C217D2E1A0063A92F /* AddPhoto+Register */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -401,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CC7F38217517BC002501FF /* Global+NavController.swift in Sources */,
+				24762891217D7C8D0063A92F /* Colors.swift in Sources */,
 				24BAA151216C0C9B00ADEC1E /* StartUpController.swift in Sources */,
 				F25F0F302170F5490078EC08 /* Register+Data.swift in Sources */,
 				F25F0F2621704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift in Sources */,
@@ -414,11 +464,13 @@
 				24CC7F4321752FF4002501FF /* RegisterConstraints.swift in Sources */,
 				F2B04ABD216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift in Sources */,
 				24CC7F5221754E6B002501FF /* NameController.swift in Sources */,
+				2476288A217D08980063A92F /* WelcomeController.swift in Sources */,
 				24CC7F5421757CFF002501FF /* ValidPassword.swift in Sources */,
 				F25F0F1E216FE3C10078EC08 /* PhoneOrEmail+Validation.swift in Sources */,
-				24CC7F3E21752EED002501FF /* ActivateAndClear.swift in Sources */,
+				24CC7F3E21752EED002501FF /* Active+NonActive.swift in Sources */,
 				24CC7F4921753FDD002501FF /* PasswordController.swift in Sources */,
 				249F30D0216D621700263804 /* PhoneOrEmail+Controller.swift in Sources */,
+				2476288E217D2E3F0063A92F /* AddPhotoController.swift in Sources */,
 				F25F0F2D21706DE00078EC08 /* PhoneOrEmail+Views.swift in Sources */,
 				24CC7F3A217520B0002501FF /* RegisterViews.swift in Sources */,
 			);

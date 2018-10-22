@@ -12,11 +12,16 @@ extension RegisterViews {
     func constraints() {
         
         self.addSubview(mainStack)
+        topToView = mainStack.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 30)
+        topToPhoto = mainStack.topAnchor.constraint(equalTo: addImageBtn.bottomAnchor, constant: 20)
         NSLayoutConstraint.activate([
-            mainStack.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 30),
+            topToView!,
             mainStack.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 35),
             mainStack.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -35)
             ])
+        
+        imageTop = addImageBtn.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 30)
+        imageCenterX = addImageBtn.centerXAnchor.constraint(equalTo: self.centerXAnchor, constant: 0)
         
         mainStack.addArrangedSubview(titleLabel)
         mainStack.addArrangedSubview(subTitleLabel)

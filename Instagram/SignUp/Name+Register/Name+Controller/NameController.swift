@@ -13,11 +13,14 @@ class NameController: RegisterController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ui.nextBtn.addTarget(self, action: #selector(nextBtn), for: .touchUpInside)
+        print("Hello World")
     }
     
     @objc func nextBtn() {
         self.registerData?.addUserDataToRegisteredDataArray(dictionaryName: .name, data: ui.textBoxField.text ?? "")
-        let passwordController = RegisterController(title: "Create a Password", subTitle: "", textFieldText: "Password")
+        let passwordController = PasswordController(title: "Create a Password", subTitle: "", textFieldText: "Password", addPhotoImage: nil)
+        print("Your name is \(self.registerData?.getName() ?? "Blah")")
+        passwordController.registerData = self.registerData
         passwordController.passwordView = true
         self.navigationController?.pushViewController(passwordController, animated: true)
     }

@@ -81,7 +81,7 @@ extension PhoneOrEmailController {
                 print("Valid Number, on to next screen")
                 // Create New Controller for Next Page!
                 self.registerData.addUserDataToRegisteredDataArray(dictionaryName: .phone, data: number, dataType: .phone)
-                let nameController = NameController(title: "Add Your Name", subTitle: "Add your name so friends can find you", textFieldText: "Full name")
+                let nameController = NameController(title: "Add Your Name", subTitle: "Add your name so friends can find you", textFieldText: "Full name", addPhotoImage: nil)
                 nameController.registerData = self.registerData
                 self.navigationController?.pushViewController(nameController, animated: true)
             } else {
@@ -100,7 +100,7 @@ extension PhoneOrEmailController {
                 print("Valid Email, on to next screen")
                 // Create New Controller for Next Page!
                 self.registerData.addUserDataToRegisteredDataArray(dictionaryName: .email, data: safeEmail, dataType: .email)
-                let nameController = NameController(title: "Add Your Name", subTitle: "Add your name so friends can find you", textFieldText: "Full name")
+                let nameController = NameController(title: "Add Your Name", subTitle: "Add your name so friends can find you", textFieldText: "Full name", addPhotoImage: nil)
                 nameController.registerData = self.registerData
                 self.navigationController?.pushViewController(nameController, animated: true)
             } else {

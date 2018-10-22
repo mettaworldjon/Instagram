@@ -17,6 +17,11 @@ class PasswordController: RegisterController {
     }
     
     @objc func nextBtn() {
+        if let safeName = self.registerData?.getName() {
+            let welcomeScreen = WelcomeController(title: "Welcome to Instagram,\n\(safeName)", subTitle: "Find people to follow and start sharing photos.\n You can change your username anytime", textFieldText: "", addPhotoImage: nil)
+            welcomeScreen.registerData = self.registerData
+            self.navigationController?.pushViewController(welcomeScreen, animated: true)
+        }
         
     }
 

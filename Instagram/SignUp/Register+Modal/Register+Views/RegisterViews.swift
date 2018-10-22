@@ -9,6 +9,7 @@
 import UIKit
 
 class RegisterViews: UIView {
+    
     let mainStack:UIStackView = {
         let sv = UIStackView()
         sv.translatesAutoresizingMaskIntoConstraints = false
@@ -16,6 +17,18 @@ class RegisterViews: UIView {
         sv.spacing = 15
         return sv
     }()
+    var topToView:NSLayoutConstraint?
+    var topToPhoto:NSLayoutConstraint?
+    
+    let addImageBtn:UIButton = {
+        let image = UIButton(type: .system)
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.heightAnchor.constraint(equalToConstant: 76).isActive = true
+        image.widthAnchor.constraint(equalToConstant: 76).isActive = true
+        return image
+    }()
+    var imageCenterX:NSLayoutConstraint?
+    var imageTop:NSLayoutConstraint?
     
     let titleLabel:UILabel = {
         let text = UILabel()
@@ -101,6 +114,7 @@ class RegisterViews: UIView {
         sv.addArrangedSubview(btn)
         return sv
     }()
+    
     
     
     

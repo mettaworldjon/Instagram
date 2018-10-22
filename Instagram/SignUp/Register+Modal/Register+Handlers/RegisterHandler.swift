@@ -15,7 +15,6 @@ extension RegisterController {
     
     @objc func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        
         checkIfTypeingOrCleared(textFromTextField: textField.text!, btn: ui.nextBtn, stack: ui.mainStack, err: nil, pwd: passwordView, pwdString: string)
 
         return false
