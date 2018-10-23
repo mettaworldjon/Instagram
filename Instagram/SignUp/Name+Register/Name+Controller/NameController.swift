@@ -19,7 +19,6 @@ class NameController: RegisterController {
     @objc func nextBtn() {
         self.registerData?.addUserDataToRegisteredDataArray(dictionaryName: .name, data: ui.textBoxField.text ?? "")
         let passwordController = PasswordController(title: "Create a Password", subTitle: "", textFieldText: "Password", addPhotoImage: nil)
-        print("Your name is \(self.registerData?.getName() ?? "Blah")")
         passwordController.registerData = self.registerData
         passwordController.passwordView = true
         self.navigationController?.pushViewController(passwordController, animated: true)
