@@ -61,6 +61,25 @@ class AddPhotoController: RegisterController {
                     guard let profileImageUrl = downloadURL?.absoluteString else { return }
                     print("Successfully uploaded profile image: ", profileImageUrl)
                     
+                    
+                    // Create Dictionary for Username and Image Url
+                    guard let uid = user?.user.uid else { return }
+                    let dictionaryValues = ["username":username, "profileImageUrl":profileImageUrl]
+                    let values = [uid:dictionaryValues]
+                    
+                    // Upload Username and Image Url
+                    Database.database().reference().child("users").updateChildValues(values, withCompletionBlock: { (err, ref) in
+                        
+                        // Check for Error
+                        if let error = err {
+                            print("Failed to save user info into db:", error)
+                            return
+                        }
+                        
+                        print("Successfully saved user info to db")
+                        
+                    })
+                    
                 })
                 
             })

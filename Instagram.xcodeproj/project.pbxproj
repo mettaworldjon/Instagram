@@ -28,6 +28,9 @@
 		24CC7F4F217548B8002501FF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F4E217548B8002501FF /* RegisterController.swift */; };
 		24CC7F5221754E6B002501FF /* NameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F5121754E6B002501FF /* NameController.swift */; };
 		24CC7F5421757CFF002501FF /* ValidPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC7F5321757CFF002501FF /* ValidPassword.swift */; };
+		24DB92ED217F88FF002E2326 /* ProfilePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB92EC217F88FF002E2326 /* ProfilePageController.swift */; };
+		24DB92F5217F9395002E2326 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB92F4217F9395002E2326 /* MainTabViewController.swift */; };
+		24FF73522182245000AEB4FA /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FF73512182245000AEB4FA /* UserProfileHeader.swift */; };
 		7A5BA096065B8A81D0470F24 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F0DC8F335E016206C2A033 /* Pods_Instagram.framework */; };
 		F25F0F1E216FE3C10078EC08 /* PhoneOrEmail+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F1D216FE3C10078EC08 /* PhoneOrEmail+Validation.swift */; };
 		F25F0F21217040920078EC08 /* Validation+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F0F20217040920078EC08 /* Validation+Methods.swift */; };
@@ -66,6 +69,9 @@
 		24CC7F4E217548B8002501FF /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		24CC7F5121754E6B002501FF /* NameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameController.swift; sourceTree = "<group>"; };
 		24CC7F5321757CFF002501FF /* ValidPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPassword.swift; sourceTree = "<group>"; };
+		24DB92EC217F88FF002E2326 /* ProfilePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageController.swift; sourceTree = "<group>"; };
+		24DB92F4217F9395002E2326 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		24FF73512182245000AEB4FA /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
 		64F0DC8F335E016206C2A033 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25F0F1D216FE3C10078EC08 /* PhoneOrEmail+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneOrEmail+Validation.swift"; sourceTree = "<group>"; };
 		F25F0F20217040920078EC08 /* Validation+Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validation+Methods.swift"; sourceTree = "<group>"; };
@@ -165,6 +171,7 @@
 				24CC7F3B21752EBA002501FF /* Global+Methods */,
 				F2B04AB1216EAB3600A5053E /* StartupOptions */,
 				F2B04AB7216EB25000A5053E /* SignUp */,
+				24DB92F2217F9349002E2326 /* Home */,
 				24BAA157216C0C9E00ADEC1E /* LaunchScreen.storyboard */,
 				24BAA155216C0C9E00ADEC1E /* Assets.xcassets */,
 				24BAA15A216C0C9E00ADEC1E /* Info.plist */,
@@ -266,6 +273,32 @@
 				24762887217CFB140063A92F /* Name+Controller */,
 			);
 			path = "Name+Register";
+			sourceTree = "<group>";
+		};
+		24DB92EB217F88E0002E2326 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				24DB92EC217F88FF002E2326 /* ProfilePageController.swift */,
+				24FF73512182245000AEB4FA /* UserProfileHeader.swift */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		24DB92F2217F9349002E2326 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24DB92F3217F936F002E2326 /* MainTabViewController */,
+				24DB92EB217F88E0002E2326 /* ProfilePage */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		24DB92F3217F936F002E2326 /* MainTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24DB92F4217F9395002E2326 /* MainTabViewController.swift */,
+			);
+			path = MainTabViewController;
 			sourceTree = "<group>";
 		};
 		94070991A594036B79545273 /* Pods */ = {
@@ -535,6 +568,7 @@
 				24CC7F38217517BC002501FF /* Global+NavController.swift in Sources */,
 				24762891217D7C8D0063A92F /* Colors.swift in Sources */,
 				24BAA151216C0C9B00ADEC1E /* StartUpController.swift in Sources */,
+				24FF73522182245000AEB4FA /* UserProfileHeader.swift in Sources */,
 				F25F0F302170F5490078EC08 /* Register+Data.swift in Sources */,
 				F25F0F2621704F0E0078EC08 /* PhoneOrEmailView+Contraints.swift in Sources */,
 				24CC7F4F217548B8002501FF /* RegisterController.swift in Sources */,
@@ -547,7 +581,9 @@
 				24CC7F4321752FF4002501FF /* RegisterConstraints.swift in Sources */,
 				F2B04ABD216EB46200A5053E /* PhoneOrEmail+ButtonHandlers.swift in Sources */,
 				24CC7F5221754E6B002501FF /* NameController.swift in Sources */,
+				24DB92ED217F88FF002E2326 /* ProfilePageController.swift in Sources */,
 				2476288A217D08980063A92F /* WelcomeController.swift in Sources */,
+				24DB92F5217F9395002E2326 /* MainTabViewController.swift in Sources */,
 				24CC7F5421757CFF002501FF /* ValidPassword.swift in Sources */,
 				F25F0F1E216FE3C10078EC08 /* PhoneOrEmail+Validation.swift in Sources */,
 				24CC7F3E21752EED002501FF /* Active+NonActive.swift in Sources */,
